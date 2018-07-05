@@ -1,28 +1,30 @@
 package lupus.in.tabula.online.domain;
 
 import javax.persistence.*;
+import java.util.List;
 
-@Entity
+/**
+ * Player Rull Character!
+ */
 public class Character {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    String characterId; // 캐릭터 고유코드
-
+    long characterId; // 캐릭터 고유코드
     String characterNm; // 캐릭터명
-
-    @Column(length = 200, nullable = false)
     private String descrition; // 설명문
+    private List<Skill> skilList;
 
-    @Column(length = 50, nullable = false)
-    private String skinMenu;
+    public List<Skill> getSkilList() {
+        return skilList;
+    }
 
+    public void setSkilList(List<Skill> skilList) {
+        this.skilList = skilList;
+    }
 
-    public String getCharacterId() {
+    public long getCharacterId() {
         return characterId;
     }
 
-    public void setCharacterId(String characterId) {
+    public void setCharacterId(long characterId) {
         this.characterId = characterId;
     }
 
@@ -42,11 +44,5 @@ public class Character {
         this.descrition = descrition;
     }
 
-    public String getSkinMenu() {
-        return skinMenu;
-    }
 
-    public void setSkinMenu(String skinMenu) {
-        this.skinMenu = skinMenu;
-    }
 }
