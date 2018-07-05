@@ -1,5 +1,7 @@
 package lupus.in.tabula.online.domain;
 
+import lombok.Data;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -26,6 +28,7 @@ import javax.persistence.Id;
  */
 
 @Entity
+@Data
 public class Skill {
 
     @Id
@@ -42,59 +45,4 @@ public class Skill {
     String what; // 무엇을
     String how; // 어떻게
 
-    public long getSkillNo() {
-        return skillNo;
-    }
-
-    public void setSkillNo(long skillNo) {
-        this.skillNo = skillNo;
-    }
-
-    public long getWho() {
-        return who;
-    }
-
-    public void setWho(long who) {
-        this.who = who;
-    }
-
-    public long[] getWhom() {
-        return whom;
-    }
-
-    public void setWhom(long[] whom) {
-        this.whom = whom;
-    }
-
-    public long getWhen() {
-        return when;
-    }
-
-    public void setWhen(long when) {
-        this.when = when;
-    }
-
-    public long getWhere() {
-        return where;
-    }
-
-    public void setWhere(long where) {
-        this.where = where;
-    }
-
-    public String getWhat() {
-        return what;
-    }
-
-    public void setWhat(String what) {
-        this.what = what;
-    }
-
-    public String getHow() {
-        return how;
-    }
-
-    public void setHow(String how) {
-        this.how = how;
-    }
 }
