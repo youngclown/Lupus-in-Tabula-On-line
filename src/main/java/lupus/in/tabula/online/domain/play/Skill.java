@@ -1,4 +1,4 @@
-package lupus.in.tabula.online.domain;
+package lupus.in.tabula.online.domain.play;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

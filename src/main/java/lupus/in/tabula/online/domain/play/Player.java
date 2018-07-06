@@ -1,4 +1,4 @@
-package lupus.in.tabula.online.domain;
+package lupus.in.tabula.online.domain.play;
 
 /**
  * 참가한 유저 정보

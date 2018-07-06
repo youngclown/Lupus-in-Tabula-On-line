@@ -1,7 +1,7 @@
 package lupus.in.tabula.online.service;
 
 
-import lupus.in.tabula.online.domain.Skill;
+import lupus.in.tabula.online.domain.play.Skill;
 import lupus.in.tabula.online.exception.NonSkillException;
 
 

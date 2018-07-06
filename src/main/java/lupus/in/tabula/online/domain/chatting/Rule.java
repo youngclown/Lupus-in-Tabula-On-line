@@ -1,0 +1,36 @@
+package lupus.in.tabula.online.domain.chatting;
+
+import lupus.in.tabula.online.domain.play.Player;
+
+import java.util.List;
+
+// GameRull
+public class Rule {
+    List<When> whenList; // 시간을 제어함. 마지막 배열이 끝나면 다시금 0으로 돌아간다.
+    List<Character> characterList;
+    List<Where> whereList; // 위치에 대한 목록
+
+    public List<When> getWhenList() {
+        return whenList;
+    }
+
+    public void setWhenList(List<When> whenList) {
+        this.whenList = whenList;
+    }
+
+    public List<Character> getCharacterList() {
+        return characterList;
+    }
+
+    public void setCharacterList(List<Character> characterList) {
+        this.characterList = characterList;
+    }
+
+    public List<Where> getWhereList() {
+        return whereList;
+    }
+
+    public void setWhereList(List<Where> whereList) {
+        this.whereList = whereList;
+    }
+}
