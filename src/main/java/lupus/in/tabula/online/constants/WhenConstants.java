@@ -1,6 +1,6 @@
 package lupus.in.tabula.online.constants;
 
-// enum 연습
+// enum 연습 겸 처리하려고했는데, 기능상 여러가지 변경점 발생할 수 있으니 enum 처리가 안됨.
 @Deprecated
 public enum WhenConstants {
     ONE_TYPE("낮"),

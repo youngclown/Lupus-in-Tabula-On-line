@@ -1,13 +1,13 @@
-package lupus.in.tabula.online.domain;
+package lupus.in.tabula.online.domain.play;
 
-import javax.persistence.*;
+import lombok.Data;
+
 import java.util.List;
 
 /**
  * Player Rull Character!
  * 플레이할 캐릭터의 정보를 가지고 있음.
  */
-
 @Data
 public class Character {
     long characterId; // 캐릭터 고유코드
