@@ -27,7 +27,6 @@ import javax.persistence.Id;
  *
  */
 
-@Entity
 @Data
 public class Skill {
 
