@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package lupus.in.tabula.online.controller;
 
 import java.util.Arrays;
