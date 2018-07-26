@@ -2,7 +2,9 @@ package lupus.in.tabula.online.exception;
 
 public class BaseException extends Exception{
 
-    public BaseException() {
+	private static final long serialVersionUID = -1580384145024683651L;
+
+	public BaseException() {
         super();
     }
 

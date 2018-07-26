@@ -7,8 +7,9 @@ import lupus.in.tabula.online.exception.NonSkillException;
 
 public class PlaySkillService {
 
-    long when;
-    long skillNo;
+    long when;		// 언제 해당 스킬이 동작할 것인가?
+    long skillNo;	// 해당 스킬의 번호가 무엇인가? 해당 Num  을 가지고 skill 객체를 찾음.
+    
     Skill skill = new Skill();
 
     /**

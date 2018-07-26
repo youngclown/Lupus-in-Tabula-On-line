@@ -1,7 +1,6 @@
 package lupus.in.tabula.online.domain.chatting;
 
 import lombok.Data;
-import lupus.in.tabula.online.domain.play.Player;
 
 import java.util.List;
 
