@@ -6,5 +6,7 @@ import lupus.in.tabula.online.domain.Member;
 
 
 public interface MemberRepository extends CrudRepository<Member, Long> {
+
+	Object findByUemail(String email);
 	
 }
