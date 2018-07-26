@@ -24,7 +24,7 @@ public class PlaySkillService {
 
     public void skillCheck() throws NonSkillException {
         if (this.when == skill.getWhen()) {
-            skill.getWhom();
+
         } else {
             throw new NonSkillException();
         }
