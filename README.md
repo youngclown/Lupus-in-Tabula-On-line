@@ -31,4 +31,4 @@ H2 설정
 ---
 [!이미지](/img/20180428_data_driver.PNG)
 
-database 가 PUBLIC 으로 자동설정되어서 database를 추가해서 셋팅하지 않는한, connection 이 되지 않아서 고생했음.(2019.04.28) 
+database 가 PUBLIC 으로 자동설정되어서 database를 추가해서 셋팅하지 않는한, PUBLIC 으로 데이터베이스를 설정해야함. (2019.04.28) 
