@@ -1,4 +1,5 @@
 # Lupus-in-Tabula-On-line
+# Toy Project
 
 [웹마피아](https://namu.wiki/w/%EC%9B%B9%EB%A7%88%ED%94%BC%EC%95%84) 를 기리며 만들고자함.
 
