@@ -1,4 +1,4 @@
-package lupus.in.tabula.online.controller;
+ackage lupus.in.tabula.online.controller;
 
 import java.util.Arrays;
 

@@ -10,7 +10,7 @@ import java.util.List;
  */
 @Data
 public class Character {
-    long characterId; // 캐릭터 고유코드
+    long characterId; // 캐릭터 고유코드(자동증가값)
     String characterNm; // 캐릭터명
     private String descrition; // 설명문
     private List<Skill> skilList;
