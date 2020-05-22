@@ -23,11 +23,11 @@ public class PlaySkillService {
     }
 
     public void skillCheck() throws NonSkillException {
-        if (this.when == this.skill.getWhen()) {
-
-        } else {
-            throw new NonSkillException();
-        }
+//        if (this.when == this.skill.getWhen()) {
+//
+//        } else {
+//            throw new NonSkillException();
+//        }
     }
 
 
